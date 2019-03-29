@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="15629ef33c3844e2"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="administrator"
+		rxversion="8.2.1.0"
+		host="AUT-SQL-DEV-001"
+		osversion="Windows Server 2008 R2 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="3/20/2019 7:57:03 AM"
+		timestampiso="2019-03-20T12:57:03"
+		endtime="3/20/2019 7:57:48 AM"
+		timeoutfactor="1"
+		module="TopQueryPlan">
+		<detail>
+			TopQueryPlan
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.171"
+			timeRelativeToTestModuleStartTime="00:25.179"
+			timeWallClock="07:57:29"
+			time="00:25.171"
+			level="Warn"
+			category="WinForms">
+			<message>
+				The control was recognized as a WinForms .NET 1.1 control. If this application targets the .NET Framework v1.1, then please ignore this message. Otherwise, the object recognition is not correct, most probably due to an installation issue. Please, uninstall and reinstall Ranorex and try again.<br/>Process: 'SQLdmDesktopClient' (pid 6636)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.2/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsNet11"
+				showInProgressDialog="False"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\TestScripts\TopQueryPlan.cs"
+				codeline="65"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

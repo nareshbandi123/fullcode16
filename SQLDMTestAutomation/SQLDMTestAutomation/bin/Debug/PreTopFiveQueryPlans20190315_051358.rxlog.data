@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2b686c83d3a20744"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="administrator"
+		rxversion="8.2.1.0"
+		host="AUT-SQL-DEV-001"
+		osversion="Windows Server 2008 R2 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="3/15/2019 5:14:04 AM"
+		timestampiso="2019-03-15T10:14:04"
+		endtime="3/15/2019 5:14:43 AM"
+		timeoutfactor="1"
+		module="PreTopFiveQueryPlans">
+		<detail>
+			PreTopFiveQueryPlans
+		</detail>
+		<errormessage>
+			Exception of type 'Ranorex.ApplicationNotRespondingException' was thrown.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.182"
+			timeRelativeToTestModuleStartTime="00:39.189"
+			timeWallClock="05:14:43"
+			time="00:39.182"
+			level="Error"
+			category="Module"
+			errimg=".\PreTopFi_3e5ca927_3c20334c_trace.jpg"
+			errthumb=".\PreTopFi_3e5ca927_3c20334c_trace_thumb.jpg">
+			<message>
+				Exception of type 'Ranorex.ApplicationNotRespondingException' was thrown.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.FunctionExecuteWithTimeout.TryExecute[T](Func`1 func, TimeSpan timeout)&#13;&#10;   at Ranorex.Core.FunctionExecuteWithTimeout.WithTimeout[T](Func`1 func, Nullable`1 timeout)&#13;&#10;   at Ranorex.Plugin.WpfRootRule.AddWpfNative(GlueRuleExecutionState state)&#13;&#10;   at Ranorex.Plugin.WpfRootRule.Execute(GlueRuleExecutionState state)&#13;&#10;   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, GlueRuleExecutionStateImpl state, Boolean includeRemotes)&#13;&#10;   at Ranorex.Core.ElementEngine.ApplyReplaceGlueRulesOnSingleRecentlyInsertedElement(Element parentElement, GlueRuleExecutionStateImpl state, GlueRuleExecutionStateImpl replaceState, Element recentlyInsertedElement)&#13;&#10;   at Ranorex.Core.ElementEngine.ApplyReplaceGlueRulesOnRecentlyInserted(Element element, GlueRuleExecutionStateImpl state)&#13;&#10;   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, GlueRuleExecutionStateImpl state, Boolean includeRemotes)&#13;&#10;   at Ranorex.Core.ElementEngine.ApplyGlueRules(Element element, Boolean includeRemotes)&#13;&#10;   at Ranorex.Core.Element.GetChildren(CacheSession session)&#13;&#10;   at Ranorex.Core.Element.get_Children()&#13;&#10;   at Ranorex.Core.RxPath.collectAxis(LocationStep step, Axis optimizedAxis, Element self, IList`1 elements, Boolean quitOnFirstGoodNode)&#13;&#10;   at Ranorex.Core.RxPath.ApplyInternal(RxPath path, Element startElement, Duration timeout, Boolean findSingle, CacheSession&amp; usedCacheSession)&#13;&#10;   at Ranorex.Core.RxPath.Apply(Element startElement, Duration timeout, Boolean findSingle, CacheSession&amp; usedCacheSession)&#13;&#10;   at Ranorex.Core.Element.TryFindInternal(RxPath path, Duration timeout, Boolean findSingle, IList`1&amp; foundElements, CacheSession&amp; usedCacheSession)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at SQLDMTestAutomation.SQLDMTestAutomationRepositoryFolders.MonitoredSqlServerInstancePropertiesDialAppFolder.get_EnableQueryMonitorTraceCheckBox() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomationRepository.cs:line 1787&#13;&#10;   at SQLDMTestAutomation.CommonMethods.UnSelectEnableQueryMonitor() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\CommonMethods.cs:line 178&#13;&#10;   at SQLDMTestAutomation.SQLDMRecordings.PreTopFiveQueryPlans.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreTopFiveQueryPlans.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\CommonMethods.cs"
+				codeline="178"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4f4dff5c4de696"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="administrator"
+		rxversion="8.2.1.0"
+		host="AUT-SQL-DEV-001"
+		osversion="Windows Server 2008 R2 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="3/15/2019 6:40:32 AM"
+		timestampiso="2019-03-15T11:40:32"
+		endtime="3/15/2019 6:41:35 AM"
+		timeoutfactor="1"
+		module="PreTopFiveQueryPlans">
+		<detail>
+			PreTopFiveQueryPlans
+		</detail>
+		<errormessage>
+			Failed to find item 'SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.EnableQueryMonitorTraceCheckBox'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.214"
+			timeRelativeToTestModuleStartTime="01:03.222"
+			timeWallClock="06:41:35"
+			time="01:03.214"
+			level="Error"
+			category="Module"
+			errimg=".\PreTopFi_6ceff00_09d2bcc9_trace.jpg"
+			errthumb=".\PreTopFi_6ceff00_09d2bcc9_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.EnableQueryMonitorTraceCheckBox'.<br/>No element found for path '/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='queryMonitorPropertyPage']//container[@controlname='tableLayoutPanel17']/checkbox[@controlname='enableQueryMonitorTraceCheckBox']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at SQLDMTestAutomation.SQLDMTestAutomationRepositoryFolders.MonitoredSqlServerInstancePropertiesDialAppFolder.get_EnableQueryMonitorTraceCheckBox() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomationRepository.cs:line 1787&#13;&#10;   at SQLDMTestAutomation.SQLDMRecordings.PreTopFiveQueryPlans.UnSelectEQM() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreTopFiveQueryPlans.UserCode.cs:line 74&#13;&#10;   at SQLDMTestAutomation.SQLDMRecordings.PreTopFiveQueryPlans.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreTopFiveQueryPlans.cs:line 82&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreTopFiveQueryPlans.UserCode.cs"
+				codeline="74"
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='queryMonitorPropertyPage']//container[@controlname='tableLayoutPanel17']/checkbox[@controlname='enableQueryMonitorTraceCheckBox']"
+				itempath="container[@controlname='propertiesControl']//container[@controlname='queryMonitorPropertyPage']//container[@controlname='tableLayoutPanel17']/checkbox[@controlname='enableQueryMonitorTraceCheckBox']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.EnableQueryMonitorTraceCheckBox"
+				id="c19e42bd757e41bc9bda4986a05f4d11"
+				timeout="60000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

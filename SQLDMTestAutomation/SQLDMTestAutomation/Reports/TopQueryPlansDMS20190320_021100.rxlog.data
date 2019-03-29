@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.01s"
+		durationms="26009"
+		type="root"
+		rid="13c352d1dde1f52f"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="administrator"
+		rxversion="8.2.1.0"
+		host="AUT-SQL-DEV-001"
+		osversion="Windows Server 2008 R2 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="3/20/2019 2:11:12 AM"
+		timestampiso="2019-03-20T07:11:12"
+		endtime="3/20/2019 2:11:38 AM"
+		timeoutfactor="1"
+		module="TopQueryPlansDMS">
+		<detail>
+			TopQueryPlansDMS
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.011"
+			timeRelativeToTestModuleStartTime="00:05.013"
+			timeWallClock="02:11:17"
+			time="00:05.011"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				itempath=".//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration"
+				id="3fe9c2fd43cc44d496c1de03fce0949e"
+				timeout="90000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.398"
+			timeRelativeToTestModuleStartTime="00:10.400"
+			timeWallClock="02:11:22"
+			time="00:10.398"
+			level="Warn"
+			category="WinForms">
+			<message>
+				This control (from process 'SQLdmDesktopClient') seems to be a Windows Forms control, but was not recognized as such, possibly due to a security limitation. UI element identification capabilities for this control may be limited.<br/>If this control is a WinForms control, please make sure that the automating process has the rights to access the automated application. Otherwise, please ignore this limitation.<br/>Process: 'SQLdmDesktopClient' (pid 7208)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.2/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.501"
+			timeRelativeToTestModuleStartTime="00:10.503"
+			timeWallClock="02:11:22"
+			time="00:10.501"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.
+
+Could not set-up managed injection endpoint: Bootstrapping Ranorex Instrumentation failed. The injection timed out. Probably the AUT is blocking the UI thread.
+
+If your application is currently in startup state please try to add a delay action to your Ranorex test application before you execute actions on Ranorex elements to give Ranorex the possibility to load correctly into the AUT.<br/>Process: 'SQLdmDesktopClient' (pid 7208)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.2/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWPF<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.008"
+			timeRelativeToTestModuleStartTime="00:26.010"
+			timeWallClock="02:11:38"
+			time="00:26.008"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

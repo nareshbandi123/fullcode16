@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3491beb6e431a68"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="administrator"
+		rxversion="8.2.1.0"
+		host="AUT-SQL-DEV-001"
+		osversion="Windows Server 2008 R2 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="3/20/2019 4:36:34 AM"
+		timestampiso="2019-03-20T09:36:34"
+		endtime="3/20/2019 4:38:48 AM"
+		timeoutfactor="1"
+		module="TopQueryPlansDMS">
+		<detail>
+			TopQueryPlansDMS
+		</detail>
+		<errormessage>
+			Failed to find item 'SQLDMTestAutomationRepository.SQLdmDesktopClient.LogicalDiskReads'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.941"
+			timeRelativeToTestModuleStartTime="00:02.942"
+			timeWallClock="04:36:37"
+			time="00:02.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				itempath=".//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration"
+				id="3fe9c2fd43cc44d496c1de03fce0949e"
+				timeout="90000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.259"
+			timeRelativeToTestModuleStartTime="00:04.260"
+			timeWallClock="04:36:38"
+			time="00:04.259"
+			level="Warn"
+			category="WPF">
+			<message>
+				Failed to instrument WPF process. UI element identification capabilities for this window are limited.
+
+Could not set-up managed injection endpoint: Bootstrapping Ranorex Instrumentation failed. The injection timed out. Probably the AUT is blocking the UI thread.
+
+If your application is currently in startup state please try to add a delay action to your Ranorex test application before you execute actions on Ranorex elements to give Ranorex the possibility to load correctly into the AUT.<br/>Process: 'SQLdmDesktopClient' (pid 7208)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.2/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWPF<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WPF Instrumentation"
+				showInProgressDialog="False"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.336"
+			timeRelativeToTestModuleStartTime="00:09.337"
+			timeWallClock="04:36:43"
+			time="00:09.336"
+			level="Warn"
+			category="WinForms">
+			<message>
+				This control (from process 'SQLdmDesktopClient') seems to be a Windows Forms control, but was not recognized as such, possibly due to a security limitation. UI element identification capabilities for this control may be limited.<br/>If this control is a WinForms control, please make sure that the automating process has the rights to access the automated application. Otherwise, please ignore this limitation.<br/>Process: 'SQLdmDesktopClient' (pid 7208)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v8.2/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.427"
+			timeRelativeToTestModuleStartTime="00:14.428"
+			timeWallClock="04:36:48"
+			time="00:14.427"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				itempath=".//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration"
+				id="3fe9c2fd43cc44d496c1de03fce0949e"
+				timeout="90000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.484"
+			timeRelativeToTestModuleStartTime="00:16.485"
+			timeWallClock="04:36:50"
+			time="00:16.484"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '0' with focus on 'SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				itempath=".//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/container[@controlname='durationThresholdSpinner']/text[@controlname='upDownEdit']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Duration"
+				id="3fe9c2fd43cc44d496c1de03fce0949e"
+				timeout="90000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.204"
+			timeRelativeToTestModuleStartTime="00:19.205"
+			timeWallClock="04:36:53"
+			time="00:19.204"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SQLDM.MonitoredSqlServerInstancePropertiesDial.SelectTop' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']//container[@controlname='topPlanTableLayoutPanel']/container[@controlname='topPlanSpinner']/text[@controlname='upDownEdit']"
+				itempath="container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']//container[@controlname='topPlanTableLayoutPanel']/container[@controlname='topPlanSpinner']/text[@controlname='upDownEdit']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.SelectTop"
+				id="f1529251c0b646cbb5c00c5c53a02dc1"
+				timeout="60000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.405"
+			timeRelativeToTestModuleStartTime="00:22.406"
+			timeWallClock="04:36:56"
+			time="00:22.405"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'SQLDM.MonitoredSqlServerInstancePropertiesDial.SelectTop'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']//container[@controlname='topPlanTableLayoutPanel']/container[@controlname='topPlanSpinner']/text[@controlname='upDownEdit']"
+				itempath="container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']//container[@controlname='topPlanTableLayoutPanel']/container[@controlname='topPlanSpinner']/text[@controlname='upDownEdit']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.SelectTop"
+				id="f1529251c0b646cbb5c00c5c53a02dc1"
+				timeout="60000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.338"
+			timeRelativeToTestModuleStartTime="00:24.339"
+			timeWallClock="04:36:58"
+			time="00:24.338"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '5' with focus on 'SQLDM.MonitoredSqlServerInstancePropertiesDial.SelectTop'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']//container[@controlname='topPlanTableLayoutPanel']/container[@controlname='topPlanSpinner']/text[@controlname='upDownEdit']"
+				itempath="container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']//container[@controlname='topPlanTableLayoutPanel']/container[@controlname='topPlanSpinner']/text[@controlname='upDownEdit']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.SelectTop"
+				id="f1529251c0b646cbb5c00c5c53a02dc1"
+				timeout="60000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.915"
+			timeRelativeToTestModuleStartTime="00:25.916"
+			timeWallClock="04:37:00"
+			time="00:25.915"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Open' at 7;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/element[@controlname='topPlanComboBox']/combobox[@accessiblename='Plans by ']/?/?/button[@accessiblename='Open']"
+				itempath=".//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/element[@controlname='topPlanComboBox']/combobox[@accessiblename='Plans by ']/?/?/button[@accessiblename='Open']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Open"
+				id="93e0b390cc9f4ad096736eb82fbeaa57"
+				timeout="90000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.149"
+			timeRelativeToTestModuleStartTime="00:28.150"
+			timeWallClock="04:37:02"
+			time="00:28.149"
+			level="Info"
+			category="Mouse"
+			errimg=".\TopQuery_2d1bd57e_d1ac1e5d_trace.jpg"
+			errthumb=".\TopQuery_2d1bd57e_d1ac1e5d_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Open' at 7;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='MonitoredSqlServerInstancePropertiesDialog']/container[@controlname='propertiesControl']//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/element[@controlname='topPlanComboBox']/combobox[@accessiblename='Plans by ']/?/?/button[@accessiblename='Open']"
+				itempath=".//container[@controlname='tableLayoutPanel16']/container[@controlname='fmePoorlyPerformingThresholds']/?/?/element[@controlname='topPlanComboBox']/combobox[@accessiblename='Plans by ']/?/?/button[@accessiblename='Open']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.MonitoredSqlServerInstancePropertiesDial.PropertiesControl.Open"
+				id="93e0b390cc9f4ad096736eb82fbeaa57"
+				timeout="90000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.238"
+			timeRelativeToTestModuleStartTime="01:07.239"
+			timeWallClock="04:37:41"
+			time="01:07.238"
+			level="Info"
+			category="Mouse"
+			errimg=".\TopQuery_2d1bd57e_f2a5b2a7_trace.jpg"
+			errthumb=".\TopQuery_2d1bd57e_f2a5b2a7_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item 'SQLdmDesktopClient.LogicalDiskReads' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltypename='MonitoredSqlServerInstancePropertiesDialog']/?/?/list[@accessiblename='Duration (milliseconds)']/listitem[@accessiblename='Logical disk reads']"
+				itempath="?/?/list[@accessiblename='Duration (milliseconds)']/listitem[@accessiblename='Logical disk reads']"
+				fullname="SQLDMTestAutomationRepository.SQLdmDesktopClient.LogicalDiskReads"
+				id="dd88b32591504f72bef8fe74c62153f2"
+				timeout="60000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:14.310"
+			timeRelativeToTestModuleStartTime="02:14.311"
+			timeWallClock="04:38:48"
+			time="02:14.310"
+			level="Error"
+			category="Module"
+			errimg=".\TopQuery_2d1bd57e_47aa03f8_trace.jpg"
+			errthumb=".\TopQuery_2d1bd57e_47aa03f8_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SQLDMTestAutomationRepository.SQLdmDesktopClient.LogicalDiskReads'.<br/>No element found for path '/form[@controltypename='MonitoredSqlServerInstancePropertiesDialog']/?/?/list[@accessiblename='Duration (milliseconds)']/listitem[@accessiblename='Logical disk reads']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at SQLDMTestAutomation.SQLDMTestAutomationRepositoryFolders.SQLdmDesktopClientAppFolder1.get_LogicalDiskReads() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMTestAutomationRepository.cs:line 3956&#13;&#10;   at SQLDMTestAutomation.SQLDMRecordings.TopQueryPlansDMS.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs:line 117&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\TopQueryPlansDMS.cs"
+				codeline="117"
+				type="repoitem"
+				path="/form[@controltypename='MonitoredSqlServerInstancePropertiesDialog']/?/?/list[@accessiblename='Duration (milliseconds)']/listitem[@accessiblename='Logical disk reads']"
+				itempath="?/?/list[@accessiblename='Duration (milliseconds)']/listitem[@accessiblename='Logical disk reads']"
+				fullname="SQLDMTestAutomationRepository.SQLdmDesktopClient.LogicalDiskReads"
+				id="dd88b32591504f72bef8fe74c62153f2"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

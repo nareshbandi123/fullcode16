@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="96508"
+		type="root"
+		rid="1483ac2c5959638a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="administrator"
+		rxversion="8.2.1.0"
+		host="AUT-SQL-DEV-001"
+		osversion="Windows Server 2008 R2 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1600x900"
+		timestamp="3/20/2019 4:34:22 AM"
+		timestampiso="2019-03-20T09:34:22"
+		endtime="3/20/2019 4:35:58 AM"
+		timeoutfactor="1"
+		module="PreTopQueryPlan">
+		<detail>
+			PreTopQueryPlan
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.694"
+			timeRelativeToTestModuleStartTime="00:02.696"
+			timeWallClock="04:34:24"
+			time="00:02.694"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.T_MSSQL2016' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Idera\ SQL\ diagnostic\ mana']//container[@controlname='NavigationPaneControl']//container[@controlname='serverGroupPanel']/tree[@controlname='userViewTreeView']//treeitem[@accessiblename='T-MSSQL2016']"
+				itempath=".//container[@controlname='NavigationPaneControl']//container[@controlname='serverGroupPanel']/tree[@controlname='userViewTreeView']//treeitem[@accessiblename='T-MSSQL2016']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.T_MSSQL2016"
+				id="7dfc10f691d54b96a823066a3e66301b"
+				timeout="60000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreTopQueryPlan.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.406"
+			timeRelativeToTestModuleStartTime="01:20.408"
+			timeWallClock="04:35:42"
+			time="01:20.406"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Middle Click item 'SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.T_MSSQL2016' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Idera\ SQL\ diagnostic\ mana']//container[@controlname='NavigationPaneControl']//container[@controlname='serverGroupPanel']/tree[@controlname='userViewTreeView']//treeitem[@accessiblename='T-MSSQL2016']"
+				itempath=".//container[@controlname='NavigationPaneControl']//container[@controlname='serverGroupPanel']/tree[@controlname='userViewTreeView']//treeitem[@accessiblename='T-MSSQL2016']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.T_MSSQL2016"
+				id="7dfc10f691d54b96a823066a3e66301b"
+				timeout="60000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreTopQueryPlan.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:30.082"
+			timeRelativeToTestModuleStartTime="01:30.084"
+			timeWallClock="04:35:52"
+			time="01:30.082"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.T_MSSQL2016' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Idera\ SQL\ diagnostic\ mana']//container[@controlname='NavigationPaneControl']//container[@controlname='serverGroupPanel']/tree[@controlname='userViewTreeView']//treeitem[@accessiblename='T-MSSQL2016']"
+				itempath=".//container[@controlname='NavigationPaneControl']//container[@controlname='serverGroupPanel']/tree[@controlname='userViewTreeView']//treeitem[@accessiblename='T-MSSQL2016']"
+				fullname="SQLDMTestAutomationRepository.SQLDM.IderaSQLDiagnosticManagerSQLdmRepo.T_MSSQL2016"
+				id="7dfc10f691d54b96a823066a3e66301b"
+				timeout="60000"
+				codefile="c:\Users\administrator.SIMPSONS\AnkammaRao\repos\test123\SQLDMTestAutomation\SQLDMTestAutomation\SQLDMRecordings\PreTopQueryPlan.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:36.508"
+			timeRelativeToTestModuleStartTime="01:36.510"
+			timeWallClock="04:35:58"
+			time="01:36.508"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
